@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" modified="2024-03-13T20:29:05.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VE4XH18US6vqFa6RuymB" version="23.1.5" type="google">
+  <diagram name="Page-1" id="dJ4_8fYLarEpSmmS_u2b">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-1" value="&lt;&lt;actor&gt;&gt;&#xa;User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43.875;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="261" y="20" width="108" height="116.875" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-2" value="Iniciar sesión" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-1">
+          <mxGeometry y="43.875" width="108" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-3" value="Registrarse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-1">
+          <mxGeometry y="72.875" width="108" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-1">
+          <mxGeometry y="101.875" width="108" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-5" value="&lt;&lt;actor&gt;&gt;&#xa;Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=47.25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="225" width="147" height="95.25" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-6" value="Gestionar usuarios" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-5">
+          <mxGeometry y="47.25" width="147" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-5">
+          <mxGeometry y="79.25" width="147" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-8" value="SistemaDeAutenticacion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="217" y="214" width="196" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-9" value="Autenticar usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-8">
+          <mxGeometry y="26" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-10" value="Registrar usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-8">
+          <mxGeometry y="52" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-11" value="Emitir token JWT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-8">
+          <mxGeometry y="78" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-8">
+          <mxGeometry y="104" width="196" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-13" value="SistemaDeGestionDeUsuarios" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="407" width="231" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-14" value="Crear usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-13">
+          <mxGeometry y="26" width="231" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-15" value="Actualizar usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-13">
+          <mxGeometry y="52" width="231" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-16" value="Desactivar usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-13">
+          <mxGeometry y="78" width="231" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="KnzwI4JcA5Hd-pDLnKJH-13">
+          <mxGeometry y="104" width="231" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-18" value="Iniciar sesión" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.181988576209446;exitY=1;entryX=0.3247692154623478;entryY=-0.004;rounded=0;" edge="1" parent="1" source="KnzwI4JcA5Hd-pDLnKJH-1" target="KnzwI4JcA5Hd-pDLnKJH-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-19" value="Registrarse" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.8163476506424059;exitY=1;entryX=0.6743140115784685;entryY=-0.004;rounded=0;" edge="1" parent="1" source="KnzwI4JcA5Hd-pDLnKJH-1" target="KnzwI4JcA5Hd-pDLnKJH-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-20" value="Gestionar usuarios" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.4997076955782313;exitY=0.9927184466019418;entryX=0.18898184677617816;entryY=0;rounded=0;" edge="1" parent="1" source="KnzwI4JcA5Hd-pDLnKJH-5" target="KnzwI4JcA5Hd-pDLnKJH-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="93" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnzwI4JcA5Hd-pDLnKJH-21" value="Crear usuario (Registro)" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.49954161352040816;exitY=0.996;entryX=0.8082787051718738;entryY=0;rounded=0;" edge="1" parent="1" source="KnzwI4JcA5Hd-pDLnKJH-8" target="KnzwI4JcA5Hd-pDLnKJH-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
