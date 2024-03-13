@@ -1,0 +1,43 @@
+# NTT Test
+
+## Características
+
+- Registro de usuarios
+- Autenticación de usuarios
+- Generación y validación de tokens JWT
+
+## Tecnologías Utilizadas
+
+- Spring Boot
+- Spring Security para autenticación y autorización
+- JWT para manejo de sesiones
+- PostgreSQL como sistema de gestión de bases de datos
+- Docker y Docker Compose para la contenerización y despliegue local
+
+## Requisitos Previos
+
+- Java JDK 17 o superior
+- Gradle
+- Docker y Docker Compose
+- PostgreSQL instalado localmente o en un contenedor para desarrollo sin Docker
+
+## Configuración del Proyecto
+
+Descripción de cómo configurar el entorno de desarrollo o producción. Incluye cualquier paso necesario para instalar dependencias, configurar variables de entorno, etc.
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/ManuelGonzalez/nttTest.git
+cd nttTest
+
+# Construir el proyecto (Gradle)
+./gradlew build
+
+# Ejecutar con Spring Boot
+./mvnw spring-boot:run
+
+# O con Gradle
+./gradlew bootRun
+
+# Ejecutar con Docker
+docker-compose up --build
